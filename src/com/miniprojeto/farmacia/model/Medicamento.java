@@ -1,3 +1,10 @@
+package com.miniprojeto.farmacia.model;
+
+/**
+ * Classe que representa os medicamentos.
+ * Ela possui as informações como nome, quantidade e valor dos medicamentos.
+ * Possui também uma maneira de reescrever os medicamentos que forem adicionados na Main.
+ */
 public class Medicamento {
     private String nome;
     private int quantidade;
@@ -27,6 +34,6 @@ public class Medicamento {
 
     @Override
     public String toString() {
-        return "Medicamento: " + nome + ", Quantidade: " + quantidade + ", Valor: " + valor;
+        return nome + ", Quantidade: " + quantidade + ", Valor: " + valor;
     }
 }

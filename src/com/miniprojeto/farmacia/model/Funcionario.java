@@ -1,5 +1,10 @@
-package com.miniprojeto.farmacia.
+package com.miniprojeto.farmacia.model;
 
+/**
+ * Classe que representa os funcionários.
+ * Ela possui as informações como nome, salário, bônus e salário extra.
+ * Possui também uma maneira de reescrever os funcionários que forem adicionados na Main.
+ */
 public class Funcionario {
     private String nome;
     private int bonus;
